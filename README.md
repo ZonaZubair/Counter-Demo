@@ -15,9 +15,9 @@ A simple counter app with increase, decrease, and reset, built to practice closu
 
 | Concept | Where it shows up |
 |---|---|
-| 🔒 Closures | `count` is kept private inside `createCounter()`, only accessible through the functions it returns |
-| 🖥️ DOM Manipulation | The number on screen updates live, with color changing based on value |
-| 🎯 Event Handling | Button clicks and keyboard arrows both trigger counter logic |
+| 🔒 Closures | `count` is kept private inside `createCounter()`, only accessible through the functions it returns. |
+| 🖥️ DOM Manipulation | The number on screen updates live, with color changing based on value. |
+| 🎯 Event Handling | Button clicks and keyboard arrows both trigger counter logic. |
 
 ---
 
