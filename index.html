@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Counter Demo</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  #count {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-bottom: 25px;
+  }
+
+  #count.positive { color: #2e7d32; }
+  #count.negative { color: #c62828; }
+
+  .step-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  #stepInput {
+    width: 50px;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .hint {
+    margin-top: 16px;
+    font-size: 0.75rem;
+    color: #999;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  #decreaseBtn {
+    background: #ffcdd2;
+    color: #b71c1c;
+  }
+  #decreaseBtn:hover { background: #ef9a9a; }
+
+  #resetBtn {
+    background: #e0e0e0;
+    color: #333;
+  }
+  #resetBtn:hover { background: #bdbdbd; }
+
+  #increaseBtn {
+    background: #c8e6c9;
+    color: #1b5e20;
+  }
+  #increaseBtn:hover { background: #a5d6a7; }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h1>Counter Demo</h1>
+  <div id="count">0</div>
+
+  <div class="step-row">
+    <label for="stepInput">Step size:</label>
+    <input type="number" id="stepInput" value="1" min="1">
+  </div>
+
+  <div class="buttons">
+    <button id="decreaseBtn">− Decrease</button>
+    <button id="resetBtn">Reset</button>
+    <button id="increaseBtn">+ Increase</button>
+  </div>
+
+  <p class="hint">Tip: use ← and → arrow keys too</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
