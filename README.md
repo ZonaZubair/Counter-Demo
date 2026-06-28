@@ -24,7 +24,7 @@ A simple counter app with increase, decrease, and reset, built to practice closu
 ## ✨ Extra Features
 
 - **Step size input:** choose how much each click adds or subtracts (default: 1)
-- **Keyboard shortcuts:** use 'left` and `right` arrow keys to decrease/increase without clicking
+- **Keyboard shortcuts:** use `left` and `right` arrow keys to decrease/increase without clicking
 
 ---
 
