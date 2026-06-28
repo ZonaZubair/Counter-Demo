@@ -1,7 +1,7 @@
-<h1 align="center">🔢 Counter Demo</h1>
+<h1 >🔢 Counter Demo</h1>
 
 <p align="center">
-A simple counter app with increase, decrease, and reset — built to practice closures, DOM manipulation, and event handling.
+A simple counter app with increase, decrease, and reset, built to practice closures, DOM manipulation, and event handling.
 </p>
 
 <p align="center">
@@ -23,14 +23,14 @@ A simple counter app with increase, decrease, and reset — built to practice cl
 
 ## ✨ Extra Features
 
-- **Step size input** — choose how much each click adds or subtracts (default: 1)
-- **Keyboard shortcuts** — use `←` and `→` arrow keys to decrease/increase without clicking
+- **Step size input:** choose how much each click adds or subtracts (default: 1)
+- **Keyboard shortcuts:** use `←` and `→` arrow keys to decrease/increase without clicking
 
 ---
 
 ## 🚀 How to Run
 
-**Option 1 — Just open it:**
+**Option 1: Just open it:**
 
 No installation needed.
 
@@ -38,7 +38,7 @@ No installation needed.
 Open index.html in any browser
 ```
 
-**Option 2 — Local server:**
+**Option 2: Local server:**
 
 ```bash
 python3 -m http.server 8080
