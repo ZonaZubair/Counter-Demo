@@ -50,7 +50,7 @@ Then visit `http://localhost:8080`
 
 ## 🌐 Deployed
 
-*(https://counter-dw.netlify.app/)*
+*[https://counter-dw.netlify.app/](https://counter-dw.netlify.app/)*
 
 ---
 
